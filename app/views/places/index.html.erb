@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head Row | Start -->
+  <head>
+    <title>Nomster</title>
+  </head>
+<!-- Head Row | End -->
+
+<!-- Body of Web Page -->
+    <body>
+
+<!-- Header | Start  -->
+      <header class="row">
+          <h1> Nomster | Great Places Reviewed </h1>
+      </header>
+        <br/>
+<!-- Header | Stop -->
+
+      <% @places.each do |place| %>
+        <div>
+          <h2><%= place.name %></h2><br/>
+          <i><%= place.address %></i><br/>
+          <p><%= place.description %></p><br/>
+        </div>
+
+        <hr />
+
+      <% end %>
+
+
+
+    </body>
+  </html>
+
+<!-- <h1>Welcome to my Awesome Web App</h1> -->
+
+<!-- <h1><%= @places.inspect %></h1> -->
