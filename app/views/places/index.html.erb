@@ -17,15 +17,16 @@
         <br/>
 <!-- Header | Stop -->
 
+<!-- Body Content -->
+
       <% @places.each do |place| %>
-        <div>
-          <h2><%= place.name %></h2><br/>
+        <!--Method instructs app to iterate accross all @place Variable instances-->
+
+        <div class = "opaque_box col-10 offset-1">
+          <h2><%= place.name %></h2>
           <i><%= place.address %></i><br/>
           <p><%= place.description %></p><br/>
         </div>
-
-        <hr />
-
       <% end %>
 
 
