@@ -1,5 +1,7 @@
 {
   "name": "nomster",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "popper.js": "^1.15.0"
+  }
 }
