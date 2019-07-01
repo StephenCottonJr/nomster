@@ -67,6 +67,7 @@ gem 'jquery-rails'
 # gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '~> 4.3.1'
 gem 'simple_form'
+# Documentation: https://github.com/plataformatec/simple_form
 
 # gem 'pagy', '~> 3.3'
 # handles pagination
