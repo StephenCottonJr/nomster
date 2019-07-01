@@ -40,4 +40,36 @@ nav {
 
 
 
+$border-radius: 5px;
+$pagination-border: #185818;
+$pagination-color: #666;
 
+.pagination {
+  text-align: center;
+
+
+  a {
+    color: $pagination-color;
+    text-decoration: none;    
+  }
+
+  span {
+    font-size: 0.9em;
+    margin: 0 0.3em;
+  }
+
+  .page {
+    a {
+      padding: 5px 5px 5px 10px;
+      text-decoration: none;
+      
+      &:hover {
+        background: $pagination-border;
+      }
+    }
+
+    &.current {
+      color: $pagination-color;
+    }    
+  }
+}

@@ -66,9 +66,16 @@ gem 'jquery-rails'
 
 # gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '~> 4.3.1'
-# gem 'simple_form'
+gem 'simple_form'
 
+# gem 'pagy', '~> 3.3'
+# handles pagination
+# gem 'will_paginate', '>= 3.1'
+# handles pagination
 
+gem 'kaminari'
+# pagination gem
+# https://www.driftingruby.com/episodes/pagination-with-kaminari
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
