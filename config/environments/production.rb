@@ -1,6 +1,12 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+# Authentication / Mail reqs per GEM: devise
+  config.action_mailer.default_url_options = { host: 'https://nomster-cotton.herokuapp.com' }
+
+
+
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 

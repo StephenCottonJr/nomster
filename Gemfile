@@ -78,10 +78,12 @@ gem 'kaminari'
 # pagination gem
 # https://www.driftingruby.com/episodes/pagination-with-kaminari
 
+gem 'devise'
+# user authentication / set-up gem
+
 gem "font-awesome-rails"
 # icon library
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
-

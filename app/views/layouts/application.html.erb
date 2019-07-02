@@ -29,18 +29,32 @@
         <li class="nav-item">
           <%= link_to new_place_path, class: 'nav-link' do %>
           Add Place
-          <i class= "fa fa-plus-circle"></i>
+          <i class= "fa fa-plus-circle"></i>          
           <% end %>
+
+          <%= link_to new_user_path, class: 'nav-link' do %>
+          Add User
+          <i class= "fa fa-plus-circle"></i>          
+          <% end %>
+
           <!-- <i refers to an item, as to li, line item I think -->
         </li>
       </ul>
-
-
-
     </div>
+
 </nav>
 
+<!-- User Authentication Alerts - from GEM: Devise -->
+  <% if notice.present? %>
+    <p class="alert alert-info"><%= notice %></p>
+  <% end %>
+
+  <% if alert.present? %>
+    <p class="alert alert-danger"><%= alert %></p>
+  <% end %>
+
     <%= yield %>
+
   </body>
 
 </html>
